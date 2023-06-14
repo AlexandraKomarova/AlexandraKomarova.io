@@ -1,0 +1,129 @@
+body {
+  display: grid;
+  grid-template-rows: auto;
+  place-items: start;
+  gap: 72px;
+}
+
+.product-grid {
+  width: 100vw;
+}
+
+.section-header {
+  width: 96vw;
+  margin-left: clamp(1.00rem, calc(0.55rem + 1.86vw), 5.00rem);
+  margin-right: clamp(1.00rem, calc(0.55rem + 1.86vw), 5.00rem);
+  margin-bottom: clamp(2.00rem, calc(1.49rem + 2.09vw), 6.50rem);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.header {
+  font-family:'PlantinW01';
+  font-size: clamp(1.88rem, calc(-0.34rem + 5vw), 5.38rem); 
+  white-space: nowrap;
+  margin-right: 8vw;
+}
+
+.subheading {
+  justify-self: end;
+  font-family:'PlantinW01';
+  font-size: clamp(1.50rem, calc(0.47rem + 2.21vw), 3.13rem);
+  /* line-height: clamp(1.81rem, calc(1.06rem + 3.07vw), 8.44rem); */
+  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-thickness: clamp(0.06rem, calc(0.05rem + 0.06vw), 0.19rem);
+  text-underline-offset: clamp(0.06rem, calc(0.04rem + 0.09vw), 0.25rem);
+}
+
+.products {
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-auto-flow: column;
+  justify-content: center;
+  gap: 2.11vw;
+}
+
+.column {
+  display: grid;
+  grid-auto-rows: max-content;
+  gap: 2.11vw;
+}
+
+.product-container {
+  width: 30.66vw;
+  display: grid;
+  grid-template-rows: max-content max-content;
+  gap: clamp(0.63rem, calc(0.41rem + 0.45vw), 1.50rem);
+}
+
+.captions-inquire-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.captions-container {
+  display: grid;
+  grid-template-rows: max-content max-content;
+  gap: clamp(0.31rem, calc(0.24rem + 0.29vw), 0.94rem);
+}
+
+.designer-name-product-title-price-container {
+  display: grid;
+  grid-template-rows: max-content max-content;
+  gap: clamp(0.31rem, calc(0.24rem + 0.29vw), 0.94rem);
+}
+
+.designer-name-product-title-container {
+  display: grid;
+  grid-template-rows: max-content max-content;
+  gap: 2px;
+}
+
+.gallery-name {
+  font-family: "Akkurat Pro";
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: clamp(0.63rem, calc(0.55rem + 0.29vw), 1.25rem);
+  line-height: clamp(0.81rem, calc(0.73rem + 0.35vw), 1.56rem);
+  letter-spacing: 1px;
+  color: #606060;
+}
+
+.designer-name {
+  font-family: "Akkurat Pro";
+  font-weight: 700;
+  font-size: clamp(1.06rem, calc(0.94rem + 0.49vw), 2.13rem);
+  line-height:clamp(1.13rem, calc(0.97rem + 0.64vw), 2.50rem);
+  letter-spacing: 0px;
+}
+
+.product-title {
+  font-family: "Akkurat Pro";
+  font-weight: 700;
+  font-size: clamp(0.81rem, calc(0.72rem + 0.38vw), 1.63rem);
+  line-height: clamp(0.88rem, calc(0.76rem + 0.46vw), 1.88rem);
+  letter-spacing: 0px;
+}
+
+.price {
+  font-family: "Akkurat Pro";
+  font-size: clamp(0.81rem, calc(0.76rem + 0.20vw), 1.25rem);
+  line-height: clamp(0.88rem, calc(0.80rem + 0.29vw), 1.50rem);
+  font-weight: 100;
+}
+
+.inquire {
+  font-family: "Akkurat Pro";
+  font-size: clamp(0.81rem, calc(0.73rem + 0.32vw), 1.50rem);
+  line-height: clamp(0.94rem, calc(0.89rem + 0.20vw), 1.38rem);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
+

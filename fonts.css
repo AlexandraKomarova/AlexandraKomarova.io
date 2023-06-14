@@ -1,0 +1,46 @@
+@font-face { font-family: Plantin; src: url('plantin-light.woff'); } 
+
+@font-face {
+    font-family: 'PlantinW01';
+    src: url('fonts/PlantinW01-Light.woff2') format('woff2'),
+        url('fonts/PlantinW01-Light.woff') format('woff');
+    font-weight: 100;
+    font-style: light;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akkurat Pro';
+    src: url('fonts/AkkuratPro-Bold.woff2') format('woff2'),
+        url('fonts/AkkuratPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akkurat Pro';
+    src: url('fonts/AkkuratPro-Light.woff2') format('woff2'),
+        url('fonts/AkkuratPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akkurat Pro';
+    src: url('fonts/AkkuratPro-Regular.woff2') format('woff2'),
+        url('AkkuratPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Akkurat-Bold';
+    src: url('fonts/DM_Akkurat_Bold.otf') format('otf'),
+        url('fonts/DM_Akkurat_Bold 2.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
